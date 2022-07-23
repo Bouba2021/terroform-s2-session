@@ -7,15 +7,3 @@ terraform {
     }
   }
 }
-
-provider "aws" {
-  region = var.aws_region # this a single line comment
-}
-
-resource "aws_s3_bucket" "b" {
-  bucket = var.bucket_name
-
-  tags = {
-    Environment = "Dev"
-  }
-}
