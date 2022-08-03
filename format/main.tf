@@ -1,3 +1,5 @@
+# format in terraform - used when you want to concatenate multiple variables at the same time or if you want to append something at the end.
+
 provider "aws" {
   region = "us-east-1"
 }
